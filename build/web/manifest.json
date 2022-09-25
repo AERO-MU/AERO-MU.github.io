@@ -1,11 +1,11 @@
 {
-    "name": "aero_club_mu",
-    "short_name": "aero_club_mu",
+    "name": "Aero Club - Mahindra University",
+    "short_name": "Aero Club - Mahindra University",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "The Aero Club is Mahindra University's club for Aero modelling enthusiaststo learn, design, build and fly!",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

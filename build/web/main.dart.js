@@ -7401,7 +7401,7 @@ lS:function lS(a,b){this.a=a
 this.$ti=b},
 qL:function qL(){},
 a9w(a,b){return b in a},
-bi(a,b,c){return a[b].apply(a,c)},
+bj(a,b,c){return a[b].apply(a,c)},
 aq5(a,b){return a[b]()},
 ej(a,b){var s=new A.aa($.a8,b.i("aa<0>")),r=new A.aO(s,b.i("aO<0>"))
 a.then(A.ei(new A.a7_(r),1),A.ei(new A.a70(r),1))
@@ -11859,7 +11859,7 @@ _.b=a
 _.c=b
 _.e=c
 _.a=d},
-bj(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5){return new A.p(q,c,b,a2==null?i:"packages/"+a2+"/"+A.e(i),j,a2,l,n,m,s,a5,a4,p,r,a0,o,a,e,f,g,h,d,a3,k,a1)},
+bi(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5){return new A.p(q,c,b,a2==null?i:"packages/"+a2+"/"+A.e(i),j,a2,l,n,m,s,a5,a4,p,r,a0,o,a,e,f,g,h,d,a3,k,a1)},
 b6(a6,a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4=null,a5=a6==null
 if(a5&&a7==null)return a4
 if(a5){a5=a7.a
@@ -11886,7 +11886,7 @@ a0=q?a4:a7.db
 a1=q?a4:a7.gke(a7)
 a2=q?a4:a7.gdX()
 a3=q?a4:a7.f
-return A.bj(f,r,s,a4,c,b,a,a0,a1,a2,d,p,n,o,g,j,a5,i,m,h,q?a4:a7.fx,a3,e,k,l)}if(a7==null){a5=a6.a
+return A.bi(f,r,s,a4,c,b,a,a0,a1,a2,d,p,n,o,g,j,a5,i,m,h,q?a4:a7.fx,a3,e,k,l)}if(a7==null){a5=a6.a
 s=A.w(a6.b,a4,a8)
 r=A.w(a4,a6.c,a8)
 q=a8<0.5
@@ -11910,7 +11910,7 @@ a0=q?a6.db:a4
 a1=q?a6.gke(a6):a4
 a2=q?a6.gdX():a4
 a3=q?a6.f:a4
-return A.bj(f,r,s,a4,c,b,a,a0,a1,a2,d,p,n,o,g,j,a5,i,m,h,q?a6.fx:a4,a3,e,k,l)}a5=a7.a
+return A.bi(f,r,s,a4,c,b,a,a0,a1,a2,d,p,n,o,g,j,a5,i,m,h,q?a6.fx:a4,a3,e,k,l)}a5=a7.a
 s=a6.ay
 r=s==null
 q=r&&a7.ay==null?A.w(a6.b,a7.b,a8):a4
@@ -11968,7 +11968,7 @@ a0=A.Q(a1,a2==null?a0:a2,a8)
 a1=k?a6.gke(a6):a7.gke(a7)
 a2=k?a6.gdX():a7.gdX()
 a3=k?a6.f:a7.f
-return A.bj(r,n,q,a4,c,b,a,a0,a1,a2,o,m,j,l,s,f,a5,e,i,d,k?a6.fx:a7.fx,a3,p,g,h)},
+return A.bi(r,n,q,a4,c,b,a,a0,a1,a2,o,m,j,l,s,f,a5,e,i,d,k?a6.fx:a7.fx,a3,p,g,h)},
 p:function p(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5){var _=this
 _.a=a
 _.b=b
@@ -23660,39 +23660,39 @@ c[6]=g
 c[7]=d
 s=a0.a
 r=b.a
-A.bi(r,"uniformMatrix4fv",[b.jL(0,s,"u_ctransform"),!1,A.db().a])
-A.bi(r,l,[b.jL(0,s,"u_scale"),2/a2,-2/a3,1,1])
-A.bi(r,l,[b.jL(0,s,"u_shift"),-1,1,0,0])
+A.bj(r,"uniformMatrix4fv",[b.jL(0,s,"u_ctransform"),!1,A.db().a])
+A.bj(r,l,[b.jL(0,s,"u_scale"),2/a2,-2/a3,1,1])
+A.bj(r,l,[b.jL(0,s,"u_shift"),-1,1,0,0])
 q=r.createBuffer()
 q.toString
-A.bi(r,k,[b.gkP(),q])
+A.bj(r,k,[b.gkP(),q])
 q=b.gwJ()
-A.bi(r,j,[b.gkP(),c,q])
+A.bj(r,j,[b.gkP(),c,q])
 q=b.r
-A.bi(r,i,[0,2,q==null?b.r=r.FLOAT:q,!1,0,0])
-A.bi(r,h,[0])
+A.bj(r,i,[0,2,q==null?b.r=r.FLOAT:q,!1,0,0])
+A.bj(r,h,[0])
 p=r.createBuffer()
-A.bi(r,k,[b.gkP(),p])
+A.bj(r,k,[b.gkP(),p])
 o=new Int32Array(A.kO(A.a([4278255360,4278190335,4294967040,4278255615],t.t)))
 q=b.gwJ()
-A.bi(r,j,[b.gkP(),o,q])
+A.bj(r,j,[b.gkP(),o,q])
 q=b.ch
-A.bi(r,i,[1,4,q==null?b.ch=r.UNSIGNED_BYTE:q,!0,0,0])
-A.bi(r,h,[1])
+A.bj(r,i,[1,4,q==null?b.ch=r.UNSIGNED_BYTE:q,!0,0,0])
+A.bj(r,h,[1])
 n=r.createBuffer()
-A.bi(r,k,[b.gq9(),n])
+A.bj(r,k,[b.gq9(),n])
 q=$.agI()
 m=b.gwJ()
-A.bi(r,j,[b.gq9(),q,m])
-if(A.bi(r,"getUniformLocation",[s,"u_resolution"])!=null)A.bi(r,"uniform2f",[b.jL(0,s,"u_resolution"),a2,a3])
+A.bj(r,j,[b.gq9(),q,m])
+if(A.bj(r,"getUniformLocation",[s,"u_resolution"])!=null)A.bj(r,"uniform2f",[b.jL(0,s,"u_resolution"),a2,a3])
 s=b.w
-A.bi(r,"clear",[s==null?b.w=r.COLOR_BUFFER_BIT:s])
+A.bj(r,"clear",[s==null?b.w=r.COLOR_BUFFER_BIT:s])
 r.viewport(0,0,a2,a3)
 s=b.ax
 if(s==null)s=b.ax=r.TRIANGLES
 q=q.length
 m=b.CW
-A.bi(r,"drawElements",[s,q,m==null?b.CW=r.UNSIGNED_SHORT:m,0])}}
+A.bj(r,"drawElements",[s,q,m==null?b.CW=r.UNSIGNED_SHORT:m,0])}}
 A.pQ.prototype={
 n(a){}}
 A.vk.prototype={
@@ -23926,15 +23926,15 @@ if(b==null){a=k.Eu(0,"VERTEX_SHADER",n)
 a0=k.Eu(0,"FRAGMENT_SHADER",d)
 n=k.a
 l=n.createProgram()
-A.bi(n,c4,[l,a])
-A.bi(n,c4,[l,a0])
-A.bi(n,"linkProgram",[l])
+A.bj(n,c4,[l,a])
+A.bj(n,c4,[l,a0])
+A.bj(n,"linkProgram",[l])
 g=k.ay
-if(!A.bi(n,"getProgramParameter",[l,g==null?k.ay=n.LINK_STATUS:g]))A.Z(A.bZ(A.bi(n,"getProgramInfoLog",[l])))
+if(!A.bj(n,"getProgramParameter",[l,g==null?k.ay=n.LINK_STATUS:g]))A.Z(A.bZ(A.bj(n,"getProgramInfoLog",[l])))
 b=new A.CC(l)
 J.fo(o.aF(),c,b)}o=k.a
 n=b.a
-A.bi(o,"useProgram",[n])
+A.bj(o,"useProgram",[n])
 l=c0.a
 a1=l.a
 a2=l.b
@@ -23970,8 +23970,8 @@ b6.ab(0,c8.gaS().a,c8.gaS().b)
 b6.bR(0,1,-1)}b6.cH(0,b4)
 b6.cH(0,b3)
 j.Jh(k,b)
-A.bi(o,"uniformMatrix4fv",[k.jL(0,n,c3),!1,b6.a])
-A.bi(o,"uniform2f",[k.jL(0,n,c2),s,p])
+A.bj(o,"uniformMatrix4fv",[k.jL(0,n,c3),!1,b6.a])
+A.bj(o,"uniform2f",[k.jL(0,n,c2),s,p])
 c7=$.a9v
 c6=0+c6
 r=0+r
@@ -23982,12 +23982,12 @@ k.Fe(0,b7.getContext("2d"),0,0)
 b8=b7.toDataURL("image/png",null)
 b7.width=0
 b7.height=0
-A.bi(o,c5,[k.gkP(),null])
-A.bi(o,c5,[k.gq9(),null])
+A.bj(o,c5,[k.gkP(),null])
+A.bj(o,c5,[k.gq9(),null])
 return b8}else{c7.Ff(new A.D(0,0,c6,r),k,b,j,s,p)
 b9=k.a0T(j.e)
-A.bi(o,c5,[k.gkP(),null])
-A.bi(o,c5,[k.gq9(),null])
+A.bj(o,c5,[k.gkP(),null])
+A.bj(o,c5,[k.gq9(),null])
 b9.toString
 return b9}}}
 A.FG.prototype={
@@ -25093,7 +25093,7 @@ $S:25}
 A.M6.prototype={
 zK(a){var s=A.arO(A.aR(["passive",!1],t.N,t.X)),r=A.eh(new A.a58(a))
 $.apc.m(0,"wheel",r)
-A.bi(this.a,"addEventListener",["wheel",r,s])},
+A.bj(this.a,"addEventListener",["wheel",r,s])},
 Bk(a){var s,r,q,p,o,n,m,l,k,j,i,h
 t.V6.a(a)
 s=B.jZ.gYP(a)
@@ -25468,13 +25468,13 @@ A.T3.prototype={}
 A.CC.prototype={}
 A.CB.prototype={
 Fe(a,b,c,d){var s=this.dy,r=this.fr,q=this.fx
-A.bi(b,"drawImage",[s,0,0,r,q,c,d,r,q])},
+A.bj(b,"drawImage",[s,0,0,r,q,c,d,r,q])},
 Eu(a,b,c){var s,r=this.a,q=r.createShader(r[b])
 if(q==null)throw A.c(A.bZ(A.aq5(r,"getError")))
-A.bi(r,"shaderSource",[q,c])
-A.bi(r,"compileShader",[q])
+A.bj(r,"shaderSource",[q,c])
+A.bj(r,"compileShader",[q])
 s=this.c
-if(!A.bi(r,"getShaderParameter",[q,s==null?this.c=r.COMPILE_STATUS:s]))throw A.c(A.bZ("Shader compilation failed: "+A.e(A.bi(r,"getShaderInfoLog",[q]))))
+if(!A.bj(r,"getShaderParameter",[q,s==null?this.c=r.COMPILE_STATUS:s]))throw A.c(A.bZ("Shader compilation failed: "+A.e(A.bj(r,"getShaderInfoLog",[q]))))
 return q},
 gkP(){var s=this.d
 return s==null?this.d=this.a.ARRAY_BUFFER:s},
@@ -25482,7 +25482,7 @@ gq9(){var s=this.e
 return s==null?this.e=this.a.ELEMENT_ARRAY_BUFFER:s},
 gwJ(){var s=this.f
 return s==null?this.f=this.a.STATIC_DRAW:s},
-jL(a,b,c){var s=A.bi(this.a,"getUniformLocation",[b,c])
+jL(a,b,c){var s=A.bj(this.a,"getUniformLocation",[b,c])
 if(s==null)throw A.c(A.bZ(c+" not found"))
 else return s},
 a0T(a){var s,r=this,q="transferToImageBitmap" in r.dy&&a
@@ -34561,14 +34561,14 @@ $S:0}
 A.oH.prototype={
 ao(){return new A.Jf(A.a(["Our Team","Projects","Events"],t.s),B.r)}}
 A.Jf.prototype={
-I(a,b){var s,r,q,p,o,n=null,m=b.S(t.w).f.a.a,l=m/18.75,k=m/12.8888
-k=A.m3(A.lE(n,A.vU(n,n,B.aK,!0,n,A.ec(A.a([A.ec(n,A.ah(B.j,n,k,B.m,n)," AERO"),A.ec(n,A.ah(A.ab(255,213,42,30),n,k,B.m,n),".MU")],t.VO),n,n),B.aX,n,n,1,B.a9),B.a5,!1,n,n,n,n,n,n,n,n,n,n,new A.a3w(b),n,n,n,n,n,n),B.c2,n,n,n)
+I(a,b){var s,r,q,p,o,n=null,m=b.S(t.w).f.a.a,l=m/12.8888
+l=A.m3(A.lE(n,A.vU(n,n,B.aK,!0,n,A.ec(A.a([A.ec(n,A.ah(B.j,n,l,B.m,n)," AERO"),A.ec(n,A.ah(A.ab(255,213,42,30),n,l,B.m,n),".MU")],t.VO),n,n),B.aX,n,n,1,B.a9),B.a5,!1,n,n,n,n,n,n,n,n,n,n,new A.a3w(b),n,n,n,n,n,n),B.c2,n,n,n)
 s=A.ah(B.j,n,m/20.8333,B.m,n)
 r=A.aq(B.yV,B.j,m/15.625)
 q=this.e
 p=A.ai(q).i("aD<1,ix<o>>")
 o=t.E
-return A.cp(n,new A.bF(new A.aN(l,m/9.375,l,0),A.pL(B.bv,A.a([k,A.ae(A.a([A.cd(A.a([new A.tr(new A.nX(A.ao(new A.aD(q,new A.a3x(),p),!0,p.i("b8.E")),new A.a3y(this,b),s,r,B.o,B.o,n,t.Af),n)],o),B.aC,B.l,B.k)],o),B.D1,B.k)],o),B.b6,n,n),n),B.q,n,n,n,n,n,n,n,n,n,m)}}
+return A.cp(n,new A.bF(new A.aN(m/25,m/20.833,m/18.75,0),A.pL(B.bv,A.a([l,A.ae(A.a([A.cd(A.a([new A.tr(new A.nX(A.ao(new A.aD(q,new A.a3x(),p),!0,p.i("b8.E")),new A.a3y(this,b),s,r,B.o,B.o,n,t.Af),n)],o),B.aC,B.l,B.k)],o),B.D1,B.k)],o),B.b6,n,n),n),B.q,n,n,n,n,n,n,n,n,n,m)}}
 A.a3w.prototype={
 $0(){var s=A.aci("/")
 A.m9(this.a).H4(s)},
@@ -34695,8 +34695,10 @@ l=c1.S(b2).f
 k=b6?600:375
 l=A.CM(b0,A.a([A.cR("assets/Micro2022_1.jpeg",B.M),A.cR("assets/Micro2022_2.jpeg",B.M),A.cR("assets/Micro2022.jpeg",B.M),A.cR("assets/Micro2022_3.jpeg",B.M)],b9),k,!0,l.a.a-50)
 k=A.B(a7,b6?80:40,a7)
-i=A.ae(A.a([A.S(a8,a7,a7,a7,A.ah(B.C,a7,35,B.m,a7),a7,a7),A.S("2020 >",a7,a7,a7,A.ah(A.ab(255,213,42,30),a7,35,B.m,a7),a7,a7)],b9),B.aG,B.k)
-h=A.B(a7,b6?80:40,a7)
+i=A.S(a8,a7,a7,a7,A.ah(B.C,a7,b6?35:b3/15.2857,B.m,a7),a7,a7)
+h=b6?35:b3/15.2857
+h=A.ae(A.a([i,A.S("2020 >",a7,a7,a7,A.ah(A.ab(255,213,42,30),a7,h,B.m,a7),a7,a7)],b9),B.aG,B.k)
+i=A.B(a7,b6?80:40,a7)
 g=A.aq(B.b2,B.j,b6?35:b3/15.2857)
 f=A.B(a7,a7,10)
 e=A.S(" SAPHIRA",a7,a7,a7,A.ah(B.C,a7,b6?28:b3/17.8333,B.m,a7),a7,a7)
@@ -34717,8 +34719,10 @@ b=c1.S(b2).f
 a=b6?600:375
 b=A.CM(b0,A.a([A.cR("assets/microplane2019.png",B.M),A.cR("assets/microplane2019_2.png",B.M),A.cR("assets/microplane2019_1.png",B.M),A.cR("assets/microplane2019_3.png",B.M)],b9),a,!0,b.a.a-50)
 a=A.B(a7,b6?80:45,a7)
-a1=A.ae(A.a([A.S(a8,a7,a7,a7,A.ah(B.C,a7,35,B.m,a7),a7,a7),A.S("2019 >",a7,a7,a7,A.ah(A.ab(255,213,42,30),a7,35,B.m,a7),a7,a7)],b9),B.aG,B.k)
-a2=A.B(a7,b6?60:40,a7)
+a1=A.S(a8,a7,a7,a7,A.ah(B.C,a7,b6?35:b3/15.2857,B.m,a7),a7,a7)
+a2=b6?35:b3/15.2857
+a2=A.ae(A.a([a1,A.S("2019 >",a7,a7,a7,A.ah(A.ab(255,213,42,30),a7,a2,B.m,a7),a7,a7)],b9),B.aG,B.k)
+a1=A.B(a7,b6?60:40,a7)
 a3=A.aq(B.b2,B.j,b6?35:b3/15.2857)
 a4=A.B(a7,a7,10)
 a5=A.S(" LE GARUDA",a7,a7,a7,A.ah(B.C,a7,b6?28:b3/19.4545,B.m,a7),a7,a7)
@@ -34727,7 +34731,7 @@ a6=A.ae(A.a([a3,a4,a5,A.S(a9,a7,a7,a7,A.ah(A.ab(255,213,42,30),a7,a6,B.m,a7),a7,
 a3=A.B(a7,b6?20:10,a7)
 b2=c1.S(b2).f
 b6=b6?600:375
-return A.XS(B.o,A.FK(A.cd(A.a([new A.m7(a7),b4,A.cp(a7,new A.bF(new A.aN(40,0,40,0),A.cd(A.a([b8,b7,r,s,n,q,new A.bF(B.ci,p,a7),o,j,m,new A.bF(B.ci,l,a7),k,i,h,d,g,new A.bF(B.ci,f,a7),e,a0,c,new A.bF(B.ci,b,a7),a,a1,a2,a6,a3,new A.bF(B.ci,A.CM(b0,A.a([A.cR("assets/Saphira.png",B.M),A.cR("assets/Saphira1.png",B.M),A.cR("assets/Saphira2.png",B.M),A.cR("assets/Saphira3.jpg",B.M),A.cR("assets/Saphira4.png",B.M),A.cR("assets/Saphira5.png",B.M)],b9),b6,!0,b2.a.a-50),a7)],b9),B.X,B.l,B.k),a7),B.q,a7,a7,a7,a7,a7,a7,a7,a7,a7,b5.a.a)],b9),B.aC,B.l,B.k),B.aw))}}
+return A.XS(B.o,A.FK(A.cd(A.a([new A.m7(a7),b4,A.cp(a7,new A.bF(new A.aN(40,0,40,0),A.cd(A.a([b8,b7,r,s,n,q,new A.bF(B.ci,p,a7),o,j,m,new A.bF(B.ci,l,a7),k,h,i,d,g,new A.bF(B.ci,f,a7),e,a0,c,new A.bF(B.ci,b,a7),a,a2,a1,a6,a3,new A.bF(B.ci,A.CM(b0,A.a([A.cR("assets/Saphira.png",B.M),A.cR("assets/Saphira1.png",B.M),A.cR("assets/Saphira2.png",B.M),A.cR("assets/Saphira3.jpg",B.M),A.cR("assets/Saphira4.png",B.M),A.cR("assets/Saphira5.png",B.M)],b9),b6,!0,b2.a.a-50),a7)],b9),B.X,B.l,B.k),a7),B.q,a7,a7,a7,a7,a7,a7,a7,a7,a7,b5.a.a)],b9),B.aC,B.l,B.k),B.aw))}}
 A.BY.prototype={
 I(a,b){return new A.lV(new A.QA(),null)}}
 A.QA.prototype={
@@ -34738,22 +34742,22 @@ else return new A.tL(null)},
 $S:83}
 A.Cv.prototype={
 I(a,b){var s,r=null,q=b.S(t.w).f.a.a,p=q/28.8,o=q>1200,n=A.aq(B.le,B.t,o?q/80:q/30),m=A.B(r,r,q/70),l=t.E
-m=A.ae(A.a([n,m,A.S(u.w,r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,o?q/80:q/30,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],l),B.l,B.k)
+m=A.ae(A.a([n,m,A.S(u.w,r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,o?q/80:q/30,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],l),B.l,B.k)
 n=A.B(r,20,r)
-s=A.S("Made by  ",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,o?q/100:q/35,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)
+s=A.S("Made by  ",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,o?q/100:q/35,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)
 s=A.ae(A.a([s,A.CR(!1,!0,A.S("Bhandar Nirupam Reddy",r,r,r,A.ah(B.j,B.jS,o?q/100:q/35,B.m,1.15),r,r),r,!0,r,r,r,r,r,r,r,r,r,new A.RJ(),r)],l),B.l,B.k)
 return new A.bF(new A.aN(q/20.5714,q/7.2,p,p),A.cp(r,A.cd(A.a([m,n,s,A.B(r,o?0:30,r)],l),B.X,B.l,B.k),B.q,r,r,r,r,r,r,r,r,r,r),r)}}
 A.RJ.prototype={
 $0(){return A.kV("https://nirupamreddy2.github.io/#/")},
 $S:0}
 A.tL.prototype={
-I(a,b){var s,r=null,q=b.S(t.w).f.a.a,p=q/28.8,o=t.E,n=A.ae(A.a([A.lC(B.o,A.aq(B.lc,B.t,24),new A.RK()),A.B(r,r,10),A.lC(B.o,A.aq(B.lb,B.t,24),new A.RL()),A.B(r,r,10),A.lC(B.o,A.aq(B.ld,B.t,24),new A.RM()),A.B(r,r,10),A.lC(B.o,A.aq(B.la,B.t,24),new A.RN())],o),B.l,B.k),m=A.B(r,20,r),l=A.B(r,r,10),k=q>1200,j=A.aq(B.le,B.t,k?q/80:q/30),i=A.B(r,r,q/70)
-l=A.ae(A.a([l,j,i,A.S(u.w,r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,k?q/80:q/30,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],o),B.l,B.k)
-j=A.B(r,20,r)
-i=A.B(r,r,10)
-s=A.S("Made by  ",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,k?q/100:q/35,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)
-i=A.ae(A.a([i,s,A.CR(!1,!0,A.S("Bhandar Nirupam Reddy",r,r,r,A.ah(B.j,B.jS,k?q/100:q/35,B.m,1.15),r,r),r,!0,r,r,r,r,r,r,r,r,r,new A.RO(),r)],o),B.l,B.k)
-return new A.bF(new A.aN(q/20.5714,q/7.2,p,p),A.cp(r,A.cd(A.a([n,m,l,j,i,A.B(r,k?0:30,r)],o),B.X,B.l,B.k),B.q,r,r,r,r,r,r,r,r,r,r),r)}}
+I(a,b){var s,r=null,q=b.S(t.w).f.a.a,p=q/28.8,o=q>1200,n=A.S("   Connect with us via: ",r,r,r,A.bi(r,r,B.j,r,r,r,r,r,r,r,r,o?q/80:q/30,r,B.m,r,r,!0,r,r,r,r,r,r,r,r),r,r),m=A.B(r,15,r),l=t.E,k=A.ae(A.a([A.lC(B.o,A.aq(B.lc,B.t,24),new A.RK()),A.B(r,r,10),A.lC(B.o,A.aq(B.lb,B.t,24),new A.RL()),A.B(r,r,10),A.lC(B.o,A.aq(B.ld,B.t,24),new A.RM()),A.B(r,r,10),A.lC(B.o,A.aq(B.la,B.t,24),new A.RN())],l),B.l,B.k),j=A.B(r,30,r),i=A.B(r,r,10),h=A.aq(B.le,B.t,o?q/80:q/30),g=A.B(r,r,q/70)
+i=A.ae(A.a([i,h,g,A.S(u.w,r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,o?q/80:q/30,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],l),B.l,B.k)
+h=A.B(r,20,r)
+g=A.B(r,r,10)
+s=A.S("Made by  ",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,o?q/100:q/35,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)
+g=A.ae(A.a([g,s,A.CR(!1,!0,A.S("Bhandar Nirupam Reddy",r,r,r,A.ah(B.j,B.jS,o?q/100:q/35,B.m,1.15),r,r),r,!0,r,r,r,r,r,r,r,r,r,new A.RO(),r)],l),B.l,B.k)
+return new A.bF(new A.aN(q/20.5714,q/7.2,p,p),A.cp(r,A.cd(A.a([n,m,k,j,i,h,g,A.B(r,o?0:30,r)],l),B.X,B.l,B.k),B.q,r,r,r,r,r,r,r,r,r,r),r)}}
 A.RK.prototype={
 $0(){},
 $S:0}
@@ -34820,29 +34824,29 @@ A.DQ.prototype={
 I(a,b){var s,r=null
 b.S(t.w).toString
 s=t.E
-return new A.bF(new A.aN(80,0,80,0),A.cp(r,A.cd(A.a([A.ae(A.a([A.cd(A.a([A.ae(A.a([A.aq(B.lk,B.j,65),A.B(r,r,20),A.S("Aero League for Students",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("An active community for all the Aerospace and Aeronautical enthusiaists",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Quality discussions regarding the evolving aerospace technology",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k),A.B(r,r,40),A.cd(A.a([A.ae(A.a([A.aq(B.lg,B.j,65),A.B(r,r,30),A.S("Peer Learning",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Promote collaborative-learning among students",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Help students develop social skills like Working in teams, Leadership, etc.",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k)],s),B.l,B.k),A.B(r,80,r),A.ae(A.a([A.cd(A.a([A.ae(A.a([A.aq(B.lh,B.j,55),A.B(r,r,30),A.S("Workshops",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Training sessions for students on various concepts related to aerospace",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Hands-on experience for students attending the sessions",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k),A.B(r,r,40),A.cd(A.a([A.ae(A.a([A.aq(B.lj,B.j,55),A.B(r,r,20),A.S("Networking",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Collaborate with top-notch aerospace companies and institutions",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Provide training and internship oppurtunities to students",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k)],s),B.l,B.k),A.B(r,80,r),A.ae(A.a([A.cd(A.a([A.ae(A.a([A.aq(B.lf,B.j,65),A.B(r,r,20),A.S("Oncampus Events",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Many events loaded with fun and exciting prizes planned every semester",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Learn stuff while enjoying the fun-loaded events",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k),A.B(r,r,40),A.cd(A.a([A.ae(A.a([A.aq(B.li,B.j,60),A.B(r,r,30),A.S("Competitions",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Students participate in various national-level aero design competitions",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Extending support to students for participating in individual competitions",r,r,r,A.bj(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k)],s),B.l,B.k)],s),B.aC,B.l,B.k),B.q,r,r,r,r,r,r,r,r,r,r),r)}}
+return new A.bF(new A.aN(80,0,80,0),A.cp(r,A.cd(A.a([A.ae(A.a([A.cd(A.a([A.ae(A.a([A.aq(B.lk,B.j,65),A.B(r,r,20),A.S("Aero League for Students",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("An active community for all the Aerospace and Aeronautical enthusiaists",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Quality discussions regarding the evolving aerospace technology",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k),A.B(r,r,40),A.cd(A.a([A.ae(A.a([A.aq(B.lg,B.j,65),A.B(r,r,30),A.S("Peer Learning",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Promote collaborative-learning among students",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Help students develop social skills like Working in teams, Leadership, etc.",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k)],s),B.l,B.k),A.B(r,80,r),A.ae(A.a([A.cd(A.a([A.ae(A.a([A.aq(B.lh,B.j,55),A.B(r,r,30),A.S("Workshops",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Training sessions for students on various concepts related to aerospace",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Hands-on experience for students attending the sessions",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k),A.B(r,r,40),A.cd(A.a([A.ae(A.a([A.aq(B.lj,B.j,55),A.B(r,r,20),A.S("Networking",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Collaborate with top-notch aerospace companies and institutions",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Provide training and internship oppurtunities to students",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k)],s),B.l,B.k),A.B(r,80,r),A.ae(A.a([A.cd(A.a([A.ae(A.a([A.aq(B.lf,B.j,65),A.B(r,r,20),A.S("Oncampus Events",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Many events loaded with fun and exciting prizes planned every semester",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Learn stuff while enjoying the fun-loaded events",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k),A.B(r,r,40),A.cd(A.a([A.ae(A.a([A.aq(B.li,B.j,60),A.B(r,r,30),A.S("Competitions",r,r,r,A.ah(A.ab(255,213,42,30),r,27,B.m,1.25),r,r)],s),B.l,B.k),A.B(r,30,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Students participate in various national-level aero design competitions",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k),A.B(r,25,r),A.ae(A.a([A.aq(B.H,B.j,15),A.B(r,r,10),A.S("Extending support to students for participating in individual competitions",r,r,r,A.bi(r,r,B.t,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.l,B.k)],s),B.X,B.l,B.k)],s),B.l,B.k)],s),B.aC,B.l,B.k),B.q,r,r,r,r,r,r,r,r,r,r),r)}}
 A.v2.prototype={
 I(b0,b1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=null,a3=b1.S(t.w).f.a.a,a4=a3/28.5333,a5=a3/7.7818,a6=A.aq(B.lk,B.j,a5),a7=a3<700,a8=a3/17.12,a9=t.E
 a6=A.ae(A.a([a6,A.B(a2,a2,a7?10:20),A.S("Aero League for Students",a2,a2,a2,A.ah(A.ab(255,213,42,30),a2,a8,B.m,1.1),a2,a2)],a9),B.l,B.k)
 s=A.B(a2,30,a2)
 r=A.aq(B.H,B.j,a4)
 q=A.B(a2,a2,a7?10:20)
-r=A.ae(A.a([r,q,A.S("An active community for all the\nAerospace and Aeronautical enthusiaists",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+r=A.ae(A.a([r,q,A.S("An active community for all the\nAerospace and Aeronautical enthusiaists",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 q=A.B(a2,25,a2)
 p=A.aq(B.H,B.j,a4)
 o=A.B(a2,a2,a7?10:20)
-a6=A.cd(A.a([a6,s,r,q,A.ae(A.a([p,o,A.S("Quality discussions regarding the \nevolving aerospace technology",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)],a9),B.X,B.l,B.k)
+a6=A.cd(A.a([a6,s,r,q,A.ae(A.a([p,o,A.S("Quality discussions regarding the \nevolving aerospace technology",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)],a9),B.X,B.l,B.k)
 s=A.B(a2,80,a2)
 r=A.aq(B.lg,B.j,a7?a5:a3/8.56)
 r=A.ae(A.a([r,A.B(a2,a2,a7?30:40),A.S("Peer Learning",a2,a2,a2,A.ah(A.ab(255,213,42,30),a2,a8,B.m,1.25),a2,a2)],a9),B.l,B.k)
 q=A.B(a2,30,a2)
 p=A.aq(B.H,B.j,a4)
 o=A.B(a2,a2,a7?10:20)
-p=A.ae(A.a([p,o,A.S("Promote collaborative-learning\namong students",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+p=A.ae(A.a([p,o,A.S("Promote collaborative-learning\namong students",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 o=A.B(a2,25,a2)
 n=A.aq(B.H,B.j,a4)
 m=A.B(a2,a2,a7?10:20)
-n=A.ae(A.a([n,m,A.S("Help students develop social skills\nlike Working in teams, Leadership, etc.",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+n=A.ae(A.a([n,m,A.S("Help students develop social skills\nlike Working in teams, Leadership, etc.",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 m=A.B(a2,80,a2)
 l=a3/8.56
 k=A.aq(B.lh,B.j,l)
@@ -34850,67 +34854,69 @@ k=A.ae(A.a([k,A.B(a2,a2,a7?30:40),A.S("Workshops",a2,a2,a2,A.ah(A.ab(255,213,42,
 j=A.B(a2,30,a2)
 i=A.aq(B.H,B.j,a4)
 h=A.B(a2,a2,a7?10:20)
-i=A.ae(A.a([i,h,A.S("Training sessions for students on\nvarious concepts related to aerospace",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+i=A.ae(A.a([i,h,A.S("Training sessions for students on\nvarious concepts related to aerospace",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 h=A.B(a2,25,a2)
 g=A.aq(B.H,B.j,a4)
 f=A.B(a2,a2,a7?10:20)
-k=A.cd(A.a([k,j,i,h,A.ae(A.a([g,f,A.S("Hands-on experience for students\nattending the sessions",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)],a9),B.X,B.l,B.k)
+k=A.cd(A.a([k,j,i,h,A.ae(A.a([g,f,A.S("Hands-on experience for students\nattending the sessions",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)],a9),B.X,B.l,B.k)
 j=A.B(a2,80,a2)
 i=A.aq(B.lj,B.j,l)
 i=A.ae(A.a([i,A.B(a2,a2,a7?20:30),A.S("Networking",a2,a2,a2,A.ah(A.ab(255,213,42,30),a2,a8,B.m,1.25),a2,a2)],a9),B.l,B.k)
 h=A.B(a2,30,a2)
 g=A.aq(B.H,B.j,a4)
 f=A.B(a2,a2,a7?10:20)
-g=A.ae(A.a([g,f,A.S("Collaborate with top-notch aerospace\ncompanies and institutions",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+g=A.ae(A.a([g,f,A.S("Collaborate with top-notch aerospace\ncompanies and institutions",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 f=A.B(a2,25,a2)
 e=A.aq(B.H,B.j,a4)
 d=A.B(a2,a2,a7?10:20)
-e=A.ae(A.a([e,d,A.S("Provide training and internship\noppurtunities to students",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+e=A.ae(A.a([e,d,A.S("Provide training and internship\noppurtunities to students",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 d=A.B(a2,80,a2)
 a5=A.ae(A.a([A.aq(B.lf,B.j,a7?a5:l),A.B(a2,a2,20),A.S("Oncampus Events",a2,a2,a2,A.ah(A.ab(255,213,42,30),a2,a8,B.m,1.25),a2,a2)],a9),B.l,B.k)
 c=A.B(a2,30,a2)
 b=A.aq(B.H,B.j,a4)
 a=A.B(a2,a2,a7?10:20)
-b=A.ae(A.a([b,a,A.S("Many events loaded with fun and\nexciting prizes",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+b=A.ae(A.a([b,a,A.S("Many events loaded with fun and\nexciting prizes",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 a=A.B(a2,25,a2)
 a0=A.aq(B.H,B.j,a4)
 a1=A.B(a2,a2,a7?10:20)
-a5=A.cd(A.a([a5,c,b,a,A.ae(A.a([a0,a1,A.S("Learn stuff while enjoying the \nfun-loaded events",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)],a9),B.X,B.l,B.k)
+a5=A.cd(A.a([a5,c,b,a,A.ae(A.a([a0,a1,A.S("Learn stuff while enjoying the \nfun-loaded events",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)],a9),B.X,B.l,B.k)
 c=A.B(a2,80,a2)
 l=A.aq(B.li,B.j,l)
 a8=A.ae(A.a([l,A.B(a2,a2,a7?30:40),A.S("Competitions",a2,a2,a2,A.ah(A.ab(255,213,42,30),a2,a8,B.m,1.25),a2,a2)],a9),B.l,B.k)
 l=A.B(a2,30,a2)
 b=A.aq(B.H,B.j,a4)
 a=A.B(a2,a2,a7?10:20)
-b=A.ae(A.a([b,a,A.S("Students participate in various national\n-level aero design competitions",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
+b=A.ae(A.a([b,a,A.S("Students participate in various national\n-level aero design competitions",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k)
 a=A.B(a2,25,a2)
 a0=A.aq(B.H,B.j,a4)
 a1=A.B(a2,a2,a7?10:20)
-return new A.bF(new A.aN(a4,0,a4,0),A.cp(a2,A.cd(A.a([a6,s,r,q,p,o,n,m,k,j,i,h,g,f,e,d,a5,c,a8,l,b,a,A.ae(A.a([a0,a1,A.S("Extending support to students for\nparticipating in individual competitions",a2,a2,a2,A.bj(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k),A.B(a2,50,a2)],a9),B.aC,B.l,B.k),B.q,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2),a2)}}
+return new A.bF(new A.aN(a4,0,a4,0),A.cp(a2,A.cd(A.a([a6,s,r,q,p,o,n,m,k,j,i,h,g,f,e,d,a5,c,a8,l,b,a,A.ae(A.a([a0,a1,A.S("Extending support to students for\nparticipating in individual competitions",a2,a2,a2,A.bi(a2,a2,B.t,a2,a2,a2,a2,a2,a2,a2,a2,a7?a3/23.7777:25,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)],a9),B.l,B.k),A.B(a2,50,a2)],a9),B.aC,B.l,B.k),B.q,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2),a2)}}
 A.GO.prototype={
-I(a,b){var s,r,q,p,o,n,m,l=null,k=b.S(t.w).f.a.a,j=k>1200,i=j?B.l:B.aG,h=A.S("~ WHAT DO ",l,l,l,A.ah(B.C,l,j?35:k/14.2666,B.m,l),l,l),g=j?35:k/14.2666,f=t.E
-i=A.ae(A.a([h,A.S("WE DO ? ~",l,l,l,A.ah(A.ab(255,213,42,30),l,g,B.m,l),l,l)],f),i,B.k)
-g=A.B(l,30,l)
-h=k>450
-s=h?B.t:B.j
-r=h?25:20
-q=h?1.5:1
-p=h?2:1
-s=A.S("We are the Aero club, a group of individuals with a keen interest the field of aeronautics. The club primarily focuses on the annual Aero Design contest conducted by the SAE(Society of Automotive Engineers). Over the course of four years since the club\u2019s inception we have made more than 7 fixed wing UAVs and participated in three Aero Design Challenge contests and have had members go on to intern in some of the top aerospace companies like Airbus, Boeing, etc both in India, as well as abroad. Moving forward we are now planning to expand and work on more independent projects such as designing automated planes, VTOL, Drones, etc.\n              ",l,l,l,A.bj(l,l,s,l,l,l,l,l,l,l,l,r,l,l,l,h?2:1.5,!0,l,q,l,l,l,l,l,p),l,l)
-r=j?B.l:B.aG
-q=A.S("~ CREWS IN ",l,l,l,A.ah(B.C,l,j?35:k/14.2666,B.m,l),l,l)
-p=j?35:k/14.2666
-r=A.ae(A.a([q,A.S("THE CLUB ~",l,l,l,A.ah(A.ab(255,213,42,30),l,p,B.m,l),l,l)],f),r,B.k)
-p=A.B(l,30,l)
-q=h?B.t:B.j
-o=h?25:20
-n=h?1.5:1
-m=h?2:1
-q=A.S("The club is divided into two divisions, Technical division and Corporate division. The technical division would be working on all the competitions and projects meanwhile the corporate division would handle promotional events, sponsorships, logistics and ensure the club runs smoothly. Please note that you can not be part of both technical and corporate as we divided this workload in order to be more productive.\n              ",l,l,l,A.bj(l,l,q,l,l,l,l,l,l,l,l,o,l,l,l,h?2:1.5,!0,l,n,l,l,l,l,l,m),l,l)
-h=j?B.l:B.aG
-o=A.S("~ OUR ",l,l,l,A.ah(B.C,l,j?35:k/14.2666,B.m,l),l,l)
-j=j?35:k/14.2666
-return A.cp(l,A.cd(A.a([new A.bF(B.eo,i,l),g,new A.bF(new A.aN(65,0,65,0),s,l),new A.bF(B.eo,r,l),p,new A.bF(new A.aN(65,0,65,0),q,l),new A.bF(B.eo,A.ae(A.a([o,A.S("MISSION ~",l,l,l,A.ah(A.ab(255,213,42,30),l,j,B.m,l),l,l)],f),h,B.k),l),A.B(l,30,l),new A.DP(l)],f),B.aC,B.l,B.k),B.q,l,l,l,l,l,l,l,l,l,l)}}
+I(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=b.S(t.w).f.a.a,h=i>1200,g=h?B.l:B.aG,f=A.S("~ WHAT DO ",j,j,j,A.ah(B.C,j,h?35:i/14.2666,B.m,j),j,j),e=h?35:i/14.2666,d=t.E
+g=A.ae(A.a([f,A.S("WE DO ? ~",j,j,j,A.ah(A.ab(255,213,42,30),j,e,B.m,j),j,j)],d),g,B.k)
+e=A.B(j,30,j)
+f=h?65:i/12.2285
+s=i>450
+r=s?B.t:B.j
+q=s?25:20
+p=s?1.5:1
+o=s?2:1
+r=A.S("We are the Aero club, a group of individuals with a keen interest the field of aeronautics. The club primarily focuses on the annual Aero Design contest conducted by the SAE(Society of Automotive Engineers). Over the course of four years since the club\u2019s inception we have made more than 7 fixed wing UAVs and participated in three Aero Design Challenge contests and have had members go on to intern in some of the top aerospace companies like Airbus, Boeing, etc both in India, as well as abroad. Moving forward we are now planning to expand and work on more independent projects such as designing automated planes, VTOL, Drones, etc.\n              ",j,j,j,A.bi(j,j,r,j,j,j,j,j,j,j,j,q,j,j,j,s?2:1.5,!0,j,p,j,j,j,j,j,o),j,j)
+q=h?B.l:B.aG
+p=A.S("~ CREWS IN ",j,j,j,A.ah(B.C,j,h?35:i/14.2666,B.m,j),j,j)
+o=h?35:i/14.2666
+q=A.ae(A.a([p,A.S("THE CLUB ~",j,j,j,A.ah(A.ab(255,213,42,30),j,o,B.m,j),j,j)],d),q,B.k)
+o=A.B(j,30,j)
+p=h?65:i/12.2285
+n=s?B.t:B.j
+m=s?25:20
+l=s?1.5:1
+k=s?2:1
+n=A.S("The club is divided into two divisions, Technical division and Corporate division. The technical division would be working on all the competitions and projects meanwhile the corporate division would handle promotional events, sponsorships, logistics and ensure the club runs smoothly. Please note that you can not be part of both technical and corporate as we divided this workload in order to be more productive.\n              ",j,j,j,A.bi(j,j,n,j,j,j,j,j,j,j,j,m,j,j,j,s?2:1.5,!0,j,l,j,j,j,j,j,k),j,j)
+s=h?B.l:B.aG
+m=A.S("~ OUR ",j,j,j,A.ah(B.C,j,h?35:i/14.2666,B.m,j),j,j)
+h=h?35:i/14.2666
+return A.cp(j,A.cd(A.a([new A.bF(B.eo,g,j),e,new A.bF(new A.aN(f,0,f,0),r,j),new A.bF(B.eo,q,j),o,new A.bF(new A.aN(p,0,p,0),n,j),new A.bF(B.eo,A.ae(A.a([m,A.S("MISSION ~",j,j,j,A.ah(A.ab(255,213,42,30),j,h,B.m,j),j,j)],d),s,B.k),j),A.B(j,30,j),new A.DP(j)],d),B.aC,B.l,B.k),B.q,j,j,j,j,j,j,j,j,j,j)}}
 A.rv.prototype={}
 A.rw.prototype={
 ao(){return new A.xb(null,null,B.r)}}
@@ -42342,7 +42348,7 @@ e=a8==null?a.db:a8
 d=a9==null?a.gke(a):a9
 c=b0==null?a.gdX():b0
 b=c1==null?a.f:c1
-return A.bj(r,q,s,null,h,g,f,e,d,c,a.fr,p,a.x,o,a0,k,a.a,j,n,a.ax,a.fx,b,i,l,m)},
+return A.bi(r,q,s,null,h,g,f,e,d,c,a.fr,p,a.x,o,a0,k,a.a,j,n,a.ax,a.fx,b,i,l,m)},
 i7(a){return this.mn(null,null,a,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)},
 Yl(a){return this.mn(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,a,null,null,null,null,null,null)},
 Yq(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r){return this.mn(a,b,c,null,d,e,f,g,null,null,h,i,j,k,l,m,null,n,o,null,null,p,q,r)},
@@ -51842,7 +51848,7 @@ h.toString
 k=h}if(l!==1)k=A.ab(B.d.ap(255*((k.gq(k)>>>24&255)/255*l)),k.gq(k)>>>16&255,k.gq(k)>>>8&255,k.gq(k)&255)
 h=this.c
 q=A.bL(h.a)
-j=A.vU(i,i,B.Gx,!0,i,A.ec(i,A.bj(i,i,k,i,i,i,i,i,h.b,i,i,m,i,i,i,i,!1,i,i,i,i,h.c,p.d,i,i),q),B.aX,s,i,1,B.a9)
+j=A.vU(i,i,B.Gx,!0,i,A.ec(i,A.bi(i,i,k,i,i,i,i,i,h.b,i,i,m,i,i,i,i,!1,i,i,i,i,h.c,p.d,i,i),q),B.aX,s,i,1,B.a9)
 return A.e8(i,new A.tB(!0,A.B(A.abn(j,i,i),m,m),i),!1,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,i)}}
 A.lK.prototype={
 k(a,b){var s=this

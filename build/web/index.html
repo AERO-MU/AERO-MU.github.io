@@ -35,12 +35,33 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1997332026';
+    var serviceWorkerVersion = '725497418';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+    }
+
+    .indicator {
+      width: 50vw;
+    }
+
+  </style>
 </head>
-<body>
+<body style="color: black;">
+  <div id="loading_indicator" class="container">
+    <img src="https://i.pinimg.com/originals/5a/65/ee/5a65ee278cd557143f05a4ba91abbfa8.gif" class="indicator" />
+  </div>
+
+
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -54,6 +75,17 @@
         return appRunner.runApp();
       });
     });
+  </script>
+  <script>
+    window.onload = function(){
+      setTimeout(function (){
+        var loadingIndicator = document.getElementById("loading_indicator");
+        if(loadingIndicator)
+        {
+          loadingIndicator.remove();
+        }
+      }, 20000);
+    };
   </script>
 </body>
 </html>
